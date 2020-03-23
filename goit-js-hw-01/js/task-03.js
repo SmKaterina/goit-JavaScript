@@ -5,7 +5,7 @@ let message;
 const password = prompt("Enter password");
 
 if (password === null) {
-  massage = "Отменено пользователем!";
+  message = "Отменено пользователем!";
 } else if (ADMIN_PASSWORD === password) {
   message = "Добро пожаловать!";
 } else {
